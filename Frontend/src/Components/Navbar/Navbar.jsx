@@ -13,8 +13,8 @@ const Navbar = () => {
 </div>
 <ul className="nav-menu">
   <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu ==="shop"?<hr/>:<></>}</li>
-  <li onClick={()=>{setMenu("mens")}}><Link style={{textDecoration:'none'}} to='/mens'>Spice</Link>{menu ==="mens"?<hr/>:<></>}</li>
-  <li onClick={()=>{setMenu("womens")}}><Link style={{textDecoration:'none'}} to='/womens'>Seed</Link>{menu ==="womens"?<hr/>:<></>}</li>
+  <li onClick={()=>{setMenu("spices")}}><Link style={{textDecoration:'none'}} to='/spices'>Spice</Link>{menu ==="spices"?<hr/>:<></>}</li>
+  <li onClick={()=>{setMenu("seeds")}}><Link style={{textDecoration:'none'}} to='/seeds'>Seed</Link>{menu ==="seeds"?<hr/>:<></>}</li>
   <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration:'none'}} to='/kids'>Herbal</Link>{menu ==="kids"?<hr/>:<></>}</li>
 </ul>
 <div className="nav-login-cart">  
