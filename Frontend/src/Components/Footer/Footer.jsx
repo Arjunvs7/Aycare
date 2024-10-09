@@ -29,10 +29,10 @@
           <img src='{whatsapp_icon}' alt=''/>
           </div>
         </div>
-        <div className='footer-copyright'>
+        {/* <div className='footer-copyright'>
           <hr />
           <p>Copyright@ -2023 All Rights Reserved</p>
-        </div>
+        </div> */}
       </div>
       )
     }

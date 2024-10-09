@@ -22,3 +22,18 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
 }
+/* Centering container */
+.shopcategory-loadmore-container {
+    display: flex;
+    justify-content: center;      /* Center horizontally */
+    align-items: center;          /* Center vertically */
+    height: 100vh;                /* Full height of the viewport (optional, for full-page centering) */
+}
+
+/* Element styling */
+.shopcategory-loadmore {
+    display: flex;                /* Use flexbox on the element itself */
+    justify-content: center;      /* Center the text horizontally */
+    align-items: center;          /* Center the text vertically */
+    text-align: center;           /* Ensure the text inside is centered */
+}
