@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 .footer_logo{
     display: flex;
@@ -13,10 +13,10 @@
 .footer-logo p{
     margin-top: 70px;
     color: #383838;
-    font-size: 46px;
-    font-weight: 700;
+    font-size: 26px;
+    font-weight: 600;
 }
-.footer-links {
+ .footer-links {
     display: flex;
     list-style: none;
     gap: 50px;

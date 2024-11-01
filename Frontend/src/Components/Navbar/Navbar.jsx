@@ -27,9 +27,9 @@ const Navbar = () => {
           <Link style={{ textDecoration: 'none' }} to='/'>Home</Link>
           {menu === "shop" && <hr />}
         </li>
-        <li onClick={() => setMenu("spices")}>
-          <Link style={{ textDecoration: 'none' }} to='/spices'>Spice</Link>
-          {menu === "spices" && <hr />}
+        <li onClick={() => setMenu("roots")}>
+          <Link style={{ textDecoration: 'none' }} to='/roots'>Roots</Link>
+          {menu === "roots" && <hr />}
         </li>
         <li onClick={() => setMenu("seeds")}>
           <Link style={{ textDecoration: 'none' }} to='/seeds'>Seed</Link>
