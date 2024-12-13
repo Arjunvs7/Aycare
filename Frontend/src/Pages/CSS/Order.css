@@ -1,0 +1,133 @@
+/* Order Page Container */
+.order-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  max-width: 1000px; /* Increased width */
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 80px; /* Add top margin to create space from navbar */
+}
+
+/* Order Page Heading */
+.order-page h2 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Order Table Container */
+.order-page .order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4CAF50;
+}
+
+/* Table Cells and Headers */
+.order-page .order-table th, 
+.order-page .order-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Header Styling */
+.order-page .order-table th {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.order-page .order-table td {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Row Stripes and Hover Effects */
+.order-page .order-table tr:nth-child(even) {
+  background-color: #f4f8f7;
+}
+
+.order-page .order-table tr:hover {
+  background-color: #eaf2f2;
+  cursor: pointer;
+}
+
+/* Left Border Styling */
+.order-page .order-table th:first-child, 
+.order-page .order-table td:first-child {
+  border-left: 4px solid #4CAF50;
+}
+
+/* Order Summary Section */
+.order-summary {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Order Summary Heading */
+.order-summary h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Order Summary Item Styling */
+.order-summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Subtotal Label Styling */
+.subtotal {
+  font-weight: bold;
+  color: #555; /* Darker color for label */
+}
+
+/* Total Amount Styling */
+.gettotalamt {
+  color: #eb0404; /* Green for value */
+  font-weight: bold;
+}
+
+/* Shipping Fee Label Styling */
+.p1 {
+  font-weight: bold;
+  color: #555; /* Darker color for label */
+}
+
+.p1 + p {
+  color: #1d1919; /* Green for "Free" */
+  font-weight: bold;
+}
+
+/* Total Section */
+.total {
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+}

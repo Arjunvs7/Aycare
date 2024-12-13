@@ -1,0 +1,88 @@
+/* Profile Container */
+.profile-container {
+  width: 70%; /* Increased width */
+  margin: 80px auto 0; /* Add top margin to create space from navbar */
+  padding: 30px; /* Increased padding for more space around the container */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading Styling */
+h2 {
+  color: #333;
+  margin-bottom: 30px; /* Increased margin for more space between header and form */
+  font-size: 28px; /* Larger heading */
+}
+
+/* Profile Details */
+.profile-details {
+  text-align: left;
+}
+
+/* Profile Item */
+.profile-item {
+  margin-bottom: 30px; /* Increased margin for more spacing between items */
+}
+
+/* Label Styling */
+.profile-item label {
+  font-weight: bold;
+  font-size: 20px; /* Larger label text */
+}
+
+/* Input and Textarea Styling */
+.profile-item span,
+.profile-item input {
+  display: block;
+  width: 100%;
+  padding: 15px; /* Larger padding for inputs */
+  margin-top: 8px;
+  font-size: 20px; /* Increased font size */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.5;
+  resize: vertical; /* Allow text area to resize vertically */
+}
+
+/* Input Field Styling */
+.profile-item input {
+  height: 50px; /* Increased height for input fields */
+}
+
+/* Textarea Styling */
+.profile-item textarea {
+  height: 180px; /* Specific height for text area */
+}
+
+/* Profile Actions */
+.profile-actions {
+  margin-top: 30px; /* Increased margin for better spacing */
+}
+
+/* Button Styling */
+button {
+  padding: 15px 30px; /* Even larger padding for the buttons */
+  border: none;
+  background-color: #235a25;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px; /* Larger button text */
+  margin-right: 15px;
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Save Button Styling */
+.save-button {
+  background-color: #2196f3;
+}
+
+.save-button:hover {
+  background-color: #0b7dda;
+}
